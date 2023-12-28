@@ -67,7 +67,7 @@ describe('API Project01',() => {
             expect(response.status).to.equal(200)
             expect(response.duration).to.lessThan(200)
 
-            cy.task('runQuery', 'SELECT * FROM student WHERE email = \'JackieC@gmail.net\'').then((rows) => {
+            cy.task('runQuery', 'SELECT * FROM student WHERE email = \'URkarim@example.org\'').then((rows) => {
                 expect(rows).to.have.length(0)})
           
         })
