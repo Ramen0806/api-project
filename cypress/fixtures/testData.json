@@ -1,0 +1,18 @@
+ {      
+    "postRequestBody":{
+        "firstName": "Ramez",
+        "lastName": "Karim",
+        "email": "Rkarim@example.org",
+        "dob": "2001-08-06"
+    },
+
+    "putRequestBody":{
+        "firstName": "URamez",
+        "lastName": "UKarim",
+        "email": "URkarim@example.org",
+        "dob": "2001-08-06"
+    }
+
+
+}
+
